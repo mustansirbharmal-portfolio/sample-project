@@ -838,7 +838,7 @@
     
   }
 
-@media screen and (min-width:0px) and (max-width){
+@media screen and (min-width:0px) and (max-width: 576px){
 
     .subscribe .subscribe-button{
         left: -1px;
