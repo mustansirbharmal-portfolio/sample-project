@@ -1,0 +1,662 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project</title>
+
+
+    <!-- General Styles-->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- Bootstrap Links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat&display=swap" rel="stylesheet">
+
+
+<style>
+
+@media screen and  (max-width:576px){
+
+    .img-after:after{
+        content: url('header-images/hotel.jpg');
+       margin: 7rem auto;
+       
+      
+    }
+
+    header{
+        height: auto;
+    }
+
+   
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px){
+    .overlay{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .overlay .lemon{
+        display: none;
+    }
+
+    .overlay .flower{
+        display: none;
+    }
+
+    .overlay .big-symbol1{
+        left: 10%;
+        top: 15%;
+    }
+
+    .overlay .small-symbol2{
+        display: none;
+    }
+
+    .overlay .small-symbol1{
+        left: 20%;
+        top: 81%;
+    }
+
+    .overlay .onion{
+        bottom: 10%;
+    }
+
+    .overlay .balloon{
+        right: 40%;
+      
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .overlay .flower, .small-symbol2, .small-symbol1{
+        display: none;
+    }
+
+    .overlay .balloon{
+        right:80%;
+    }
+
+    .overlay .onion{
+        bottom:8%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .overlay .small-symbol2,.balloon{
+        display: none;
+    }
+
+    .overlay .lemon{
+        left: 65%;
+    }
+
+}
+
+/* Overlay Info */
+@media screen and (min-width: 0px) and (max-width:576px){
+  .info .info-content{
+ 
+  top: 25%;
+  left: 2%;
+  margin-top: 30px;
+  }
+
+  .info .info-break{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px){
+  .info .info-content{
+ 
+  top: 25%;
+  left: 2%;
+  margin-top: 30px;
+  }
+
+  .info .info-break{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width:991px){
+  .info .info-content{
+ 
+  top: 40%;
+  left: 2%;
+  margin-top: 30px;
+
+  
+  }
+
+  .info .info-break{
+    display: none;
+  }
+}    
+
+@media screen and (min-width: 991px) and (max-width:1200px){
+  .info .info-content{
+ 
+  top: 40%;
+  left: 20%;
+  margin-top: 30px;
+
+  
+  }
+
+ }    
+
+ @media screen and (min-width: 1200px){
+  .info .info-content{
+ 
+  top:30%;
+  left: 28%;
+  margin-top: 30px;
+
+  
+  }
+
+ }   
+ 
+/* Overlay Subscribe */
+ @media screen and (min-width: 1200px){
+
+.subscribe::after{
+  height: 600px;
+  
+}
+
+.subscribe  .subscribe-main{
+  padding-top: 100px ;
+  padding-bottom: 150px;
+  
+}  
+ } 
+
+ @media screen and (min-width: 991px) and (max-width:1200px){
+
+.subscribe::after{
+  height: 550px;
+  
+}
+
+.subscribe  .subscribe-main{
+  padding-top: 100px ;
+  padding-bottom: 150px;
+  
+}  
+ } 
+
+ @media screen and (min-width: 768px) and (max-width:991px){
+
+.subscribe::after{
+  height: 550px;
+  
+}
+
+.subscribe  .subscribe-main{
+  padding-top: 100px ;
+  padding-bottom: 150px;
+  
+}  
+
+.overlay-sub .flower-sub,.wheel2-sub{
+    display: none;
+}
+.overlay-sub .cucumber-sub{
+   left:80%;
+}
+ } 
+
+ @media screen and (min-width: 576px) and (max-width:768px){
+
+.subscribe::after{
+  height: 550px;
+  
+}
+
+.subscribe  .subscribe-main{
+  padding-top: 100px ;
+  padding-bottom: 150px;
+  
+}  
+
+.overlay-sub .flower-sub,.wheel2-sub,.lemon-sub,.balloon-sub{
+    display: none;
+}
+.overlay-sub .cucumber-sub{
+   left:80%;
+}
+
+.overlay-sub .onion-sub{
+    left: 85%;
+    top: 75%;
+}
+ } 
+
+ @media screen and (min-width: 0px) and (max-width:576px){
+    .overlay-sub{
+        display: none;
+    }
+    .subscribe::after{
+  height: 520px;
+  
+}
+    .subscribe  .subscribe-main{
+  padding-top: 100px ;
+  padding-bottom: 150px;
+  
+}  
+ }
+
+ /* Overlay Statistics */
+
+
+ @media screen and (min-width:1200px){
+    .overlay-promo .balloon-promo{
+        display: none;
+    }
+ }
+
+ @media screen and (min-width: 991px) and (max-width:1200px){
+    .overlay-promo .flower-promo,.wheel2-promo, .onion-promo{
+        display: none;
+    }
+
+    .overlay-promo .wheel3-promo,.cucumber2-promo{
+        margin-top: 30px;
+    }   
+
+   
+
+
+    
+ }
+
+
+ @media screen and (min-width: 0px) and (max-width:992px){
+    .overlay-promo {
+        display: none;
+    }
+
+    .Promo .promo-statistics{
+        margin-top: 100px;
+    }
+
+   
+
+    
+ }
+
+
+
+ 
+
+</style>
+
+<script>
+    function removeDisabled() {
+        let input = document.getElementById("input");
+        input.removeAttribute("disabled");
+    }
+</script>
+
+</head>
+
+
+  <body>
+
+        <header>
+            <div class="overlay overlay-lg mt-3" >
+               
+                <img src="header-images/symbol2.png" class=" img-fluid shape shape2 big-symbol1">
+                <img src="header-images/symbol2.png" class=" img-fluid shape shape2 big-symbol2">
+                <img src="header-images/symbol1.png" class=" img-fluid shape shape3 small-symbol1">
+                <img src="header-images/symbol1.png" class=" img-fluid shape shape3 small-symbol2">
+                <img src="header-images/open onion.png" class=" img-fluid shape onion">
+                <img src="header-images/Cucumber.png" class="img-fluid shape  Cucumber">
+                <img src="header-images/lemon.png" class=" img-fluid shape lemon">
+                <img src="header-images/flower.png" class="img-fluid shape flower">
+                <img src="header-images/balloon.png" class="img-fluid shape balloon">
+                
+                
+            </div>
+        <nav class="navbar navbar-expand-lg   " >
+            <div class="container-fluid ">
+
+                
+                
+                <a href="#" class="navbar-brand logo  ">
+                    <img src="header-images/logo.png" class="img-fluid" style="width:150px;">
+                </a>
+
+                <button class="navbar-toggler toggle-button " data-bs-toggle="collapse" data-bs-target="#myNavbar">
+                   
+                    <span class=" navbar-toggler-icon"><i class="fa-solid fa-bars-staggered"></i></span> 
+                 </button>
+             
+
+
+                <div class="collapse navbar-collapse justify-content-end   " id="myNavbar">
+                    <ul class="navbar-nav ">
+                    
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link common " >Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#service" class="nav-link common ">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#promo" class="nav-link common">Promo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#info" class="nav-link common">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#subscribe" class="nav-link common">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <img src="header-images/search.png" class="img-fluid btn nav-link hide-screen pe-5 common" style="color: #fff;"></a>
+                        </li>
+    
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+    
+    <div class="header-content ">
+        <div class="container">
+            <div class="row img-after ">
+        
+                <div class="banner col-lg-5">
+                    <img src="header-images/Banner 3.png"  alt="" class="img-fluid banner-img-1">
+                    <img src="header-images/Banner.png" alt="" class="img-fluid banner-img-2">
+                </div>
+
+                <div class="col-lg-6 text-show  ">
+                  <h2 class="main-header">Foodies King</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+                  <button class="btn main-btn " style="position: relative; z-index: 500;">ORDER NOW</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </header>
+    
+<!-- Services -->
+<main>
+    <section class="service mb-5" id="service">
+        <div class="container text-center">
+            <div class="row ">
+                <div class="col-12 col-lg-12 mb-2">
+                    <h3 class="service-header">Best Seller</h3>
+                    <p class="service-para mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6  pt-sm-5 service-style">
+                    <img src="Services/service-image 1.png" alt="" class="img-fluid img-style">
+                    <h4 class="service-sub-header">Delicious</h4>
+                    <p class="img1-para">Lorem ipsum dolor sit amet,<br class="break"> consectetur adipiscing elit.</p>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6  pt-sm-5 service-style">
+                    <img src="Services/service-image 2.png" alt="" class="img-fluid img-style">
+                    <h4 class="service-sub-header">Healthy Food</h4>
+                    <p class="img1-para">Lorem ipsum dolor sit amet,<br class="break"> consectetur adipiscing elit.</p>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12 pt-sm-5 service-style ">
+                    <img src="Services/service-image3.png" alt="" class="img-fluid img-style">
+                    <h3 class="service-sub-header">Hygienic</h3>
+                    <p class="img1-para">Lorem ipsum dolor sit amet,<br class="break"> consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<br>
+
+
+
+    <!-- Promo -->
+    <section class="Promo " id="promo" style="margin-top: 200px;" >
+        <img src="Promo/promo-wave-start.png"  alt="" class="img-fluid promo-img">
+    <div class="container-fluid promo-main ">
+    
+    <div class="row text-center promo-style">
+    
+        <div class="col-lg-5 col-md-5 col-sm-6">
+            <img src="Promo/promo-main-img.png"  alt="" class="img-fluid promo-main-img">
+         
+        </div>
+
+        <div class="col-lg-6 col-md-5 col-sm-12 promo-main-img2">
+          <h2 class="promo-header">Oriental Taste</h2>
+          <p class="promo-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+          <button class="btn promo-btn ">ORDER NOW</button>
+        </div>
+        
+
+    </div>
+
+    <div class="row promo-statistics text-center " style="margin-top: -120px;">
+        <div class="overlay-promo overlay-lg " >
+               
+            <img src="Subscribe/onion-sub.png" class=" img-fluid shape-promo onion-promo" style="height: 80px;">
+            <img src="Subscribe/lemon-sub.png" class=" img-fluid shape-promo lemon-promo" style="height: 80px;">
+            <img src="Subscribe/flower-sub.png" class=" img-fluid shape-promo flower-promo" style="height: 80px;">
+            <img src="  Subscribe/wheel.png" class=" img-fluid shape-promo wheel-promo " style="height: 30px;">
+            <img src="Subscribe/wheel.png" class=" img-fluid shape-promo wheel2-promo" style="height: 25px;">
+            <img src="Subscribe/wheel.png" class="img-fluid shape-promo wheel3-promo" style="height: 30px;">
+            <img src="Subscribe/Cucumber-sub.png" class="img-fluid shape-promo cucumber-promo" style="height: 80px;">
+            <img src="Promo/cucumber 2.png" class="img-fluid shape-promo cucumber2-promo" style="height: 80px;">
+            <img src="Subscribe/balloon-sub.png" class="img-fluid shape-promo balloon-promo" style="height: 30px;">
+        </div>
+    
+        <div class="col-12 col-lg-12 col-md-12">
+            <h2 class="promo-header ">Statistics</h2>
+            <p class="promo-para2 ">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br class="promo-break"> Vivamus lacinia odio vitae vestibulum vestibulum.
+            </p>
+        </div>
+        
+        
+        <div class="circle col-lg-3 col-md-2 col-sm-12 d-flex flex-column align-items-center " style="height: 200px;  width:232px;" >
+            <div class="circle-sub " >
+                <h2 class="promo-stats-header">123</h2>
+                <p class="promo-stats-para">OUTLETS</p>
+                </div>
+            </div>
+
+        <div class="circle col-lg-3 col-md-3 col-sm-12 d-flex flex-column align-items-center" style="height: 200px;  width:232px;">
+            <div class="circle-sub">
+                <h2 class="promo-stats-header">100</h2>
+                <p class="promo-stats-para">CHEF</p>
+            </div>
+        </div>
+
+        <div class="circle col-lg-3 col-md-3 col-sm-12 d-flex flex-column align-items-center" style="height: 200px;  width:232px;">
+            <div class="circle-sub ">
+                <h2 class="promo-stats-header">300</h2>
+                <p class="promo-stats-para">MENU</p>
+            </div>
+        </div>
+
+        <div class="circle col-lg-3 col-md-2 col-sm-12 d-flex flex-column align-items-center" style="height: 200px;  width:232px;">
+            <div class="circle-sub">
+                <h2 class="promo-stats-header">30</h2>
+                <p class="promo-stats-para">COUNTRY</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="row promo-footer text-center">
+
+       
+        <div class="col-lg-6  promo-footer-img promo-footer-style" style="margin-top: 80px;">
+            <h2 class="promo-footer-header">Chicken Grill</h2>
+            <p class="promo-footer-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. </p>
+            <button class="btn promo-footer-btn ">ORDER NOW</button>
+          </div>
+
+          <div class="col-lg-5">
+            <img src="Promo/Promo-footer.png"  alt="" class="img-fluid promo-footer-img promo-footer-img2" style="width: 382px; height: 382px;">
+   
+        </div>
+ 
+         
+    </div>
+    
+</div>
+    <img src="Promo/promo-wave-last.png" alt="" class="img-fluid last-wave" style="padding-bottom: 110px; z-index: 20;">
+    </div>
+ 
+    </section>
+
+<!-- Info -->
+<section class="info mt-5 " id="info" style="margin-bottom: 100px;">
+
+   
+  
+    <div class="info-img">
+    <img src="Info/info-main-img.png" alt="" class="img-fluid info-img-main">
+</div>
+
+    <div class="info-content text-center ">
+    <p class="info-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br class="info-break"> Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+    <h3 class="info-header" >Lenora Fields</h3>
+    </div>
+
+
+</section>
+
+<!-- Subscribe -->
+<section class="subscribe mb-3 " id="subscribe" >
+
+    <div class="overlay-sub overlay-lg " >
+               
+        <img src="Subscribe/onion-sub.png" class=" img-fluid shape-sub onion-sub">
+        <img src="Subscribe/lemon-sub.png" class=" img-fluid shape-sub lemon-sub">
+        <img src="Subscribe/flower-sub.png" class=" img-fluid shape-sub flower-sub">
+        <img src="Subscribe/wheel.png" class=" img-fluid shape-sub wheel-sub ">
+        <img src="Subscribe/wheel.png" class=" img-fluid shape-sub wheel2-sub">
+        <img src="Subscribe/wheel.png" class="img-fluid shape-sub wheel3-sub">
+        <img src="Subscribe/balloon-sub.png" class=" img-fluid shape-sub balloon-sub">
+        <img src="Subscribe/Cucumber-sub.png" class="img-fluid shape-sub cucumber-sub">
+        
+        
+    </div>
+
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-12 col-lg-12 col-md-12 subscribe-main " >
+                <div class="subscribe-content">
+               <h3 class="subscribe-header mb-4">Subscribe</h3>
+               <p class="subscribe-para mb-3">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br class="info-break"> Vivamus lacinia odio vitae vestibulum vestibulum.
+            </p>
+        </div>
+
+        <div class="sub-input"></div>
+            <input type="email" class="subscribe-input" id="input" placeholder="Your Email" autocomplete="off">
+            <button class="btn subscribe-button " style="font-weight: 900;">SUBSCRIBE</button>
+        </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<footer class="footer bg-dark text-light  w-100" id="footer">
+  
+  <div class="container">
+    <div class="row footer-content ">
+        <div class="col-12 col-lg-3 col-md-12 footer-title px-5">
+    <h3 class="footer-head ">FOODIES KING</h3>
+    <p class="footer-para">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at dignissim nunc, id maximus ex. Etiam nec dignissim elit, at dignissim enim.
+     </p>
+
+     <div class="footer-links-icon">
+        <a href="">
+         <img src="Footer/Instagram.png" alt="" class="footer-icon">
+           </a>
+
+           <a href="" >
+            <img src="Footer/Facebook.png" alt="" class="footer-icon">
+           </a>
+
+           <a href="">
+            <img src="Footer/Twitter.png" alt="" class="footer-icon">
+           </a>
+
+           <a href="">
+            <img src="Footer/WhatsApp.png" alt="" class="footer-icon">
+           </a>
+        
+        
+     </div>
+        </div>
+
+        <div class="col-12 col-lg-3 col-md-12 footer-about   px-5 "> 
+            <h3 class="footer-head"> ABOUT</h3>
+            <div class="footer-links footer-common-links">
+
+                <a href="" class="text-decoration-none ">History</a>
+                <a href="" class="text-decoration-none">Our Team</a>
+                <a href="" class="text-decoration-none">Brand Guidelines</a>
+                <a href="" class="text-decoration-none">Terms & Condition</a>
+                <a href="" class="text-decoration-none">Privacy Policy</a>
+              
+             </div>
+        </div>
+
+        <div class="col-12 col-lg-3 col-md-12 footer-services  px-5  "> 
+            <h3 class="footer-head"> SERVICES</h3>
+            <div class="footer-links footer-common-links">
+
+                <a href="" class="text-decoration-none ">How to Order</a>
+                <a href="" class="text-decoration-none">Our Product</a>
+                <a href="" class="text-decoration-none">Order Status</a>
+                <a href="" class="text-decoration-none">Promo</a>
+                <a href="" class="text-decoration-none">Payment Method</a>
+              
+             </div>
+        </div>
+
+        <div class="col-12 col-lg-3 col-md-12 footer-other  px-5 "> 
+            <h3 class="footer-head"> OTHER</h3>
+            <div class="footer-links footer-common-links ">
+
+                <a href="" class="text-decoration-none ">Contact Us</a>
+                <a href="" class="text-decoration-none">Help</a>
+                <a href="" class="text-decoration-none">Privacy</a>
+               
+              
+             </div>
+        </div>
+
+
+    </div>
+  </div>
+</footer>
+</main>
+
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>

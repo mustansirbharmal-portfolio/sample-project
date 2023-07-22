@@ -1,0 +1,1016 @@
+    @import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat&display=swap');
+
+
+
+    /* General Styles  */
+    *
+    *::before,
+    *::after {
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    img{
+        width: 100%;
+    }
+
+
+
+    /* Header */
+    header{
+        background: url('header-images/banner2.png');
+        height: 600px;
+        width:100%;
+        position: relative;
+    }
+
+    .navbar{
+        position: relative;
+        z-index: 50;
+    }
+
+    .navbar .nav-link {
+        color: #D3D3D3;
+        font-family: 'Montserrat' , sans-serif;
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+
+    
+
+   
+    ul li.nav-item{
+      padding-left: 50px;
+     
+    }
+
+    .logo{
+        margin-left: 20px;
+        position: absolute;
+        z-index: 50;
+    }
+
+    .banner .img-fluid{
+        max-width: 500px;
+        height: 600px;
+        position: absolute;
+        top: 0;
+        left:0%;
+
+    }
+
+    .banner .banner-img-2{
+        max-width: 250px;
+        height: 600px;
+        position: absolute;
+        top: 0;
+        left:30%;
+
+    }
+
+    .header-content .text-show{
+        position: relative;
+       
+        top: 70px;
+
+
+    }
+
+    .header-content h2{
+        color: #FFCC00;
+        font-family: 'Grand Hotel', cursive;
+        font-size: 7rem;
+    }
+
+    .header-content p{
+        color: #fff;
+        font-family:  'Montserrat' , sans-serif;
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+
+
+    .header-content button{
+        background-color: #FFCC00;
+        font-family:  'Montserrat' , sans-serif;
+        font-weight: bold;
+        margin-top: 1rem;
+       
+    }
+
+    .header-content button:hover{
+      color:#FFCC00;
+    }
+
+    .header-content button:focus  {
+      background-color: black;
+      color:#FFCC00;
+    }
+
+
+    .navbar .navbar-toggler{
+        margin-left: auto;
+        color: #fff;
+        border: none;
+      
+      
+    }
+
+    @media screen and (min-width:0px) and (max-width:992px){
+      .banner .banner-img-2{
+        display: none;
+        visibility: hidden;
+      }
+
+      .banner .banner-img-1{
+        display: none;
+        visibility: hidden;
+      }
+
+      .hide-screen{
+        display: none;
+        visibility: hidden;
+      }
+
+      .header-content{
+        margin-top: 40px;
+      }
+      
+    }
+
+    @media screen and (min-width:992px) and (max-width:993px){
+        .banner .banner-img-2{
+          display: none;
+          visibility: hidden;
+        }
+      
+        .banner .banner-img-1{
+          display: none;
+          visibility: hidden;
+        }
+      
+        .hide-screen{
+          display: none;
+          visibility: hidden;
+        }
+        
+      }
+      
+      
+      @media screen and (min-width:992px) and (max-width:1180px){
+        ul li.nav-item{
+            padding-left: 20px;
+          }
+
+      
+      }
+
+      @media screen and (min-width:992px) and (max-width:1200px){
+        
+        header{
+          height: 750px;
+        }
+
+        .overlay .lemon{
+          display: none;
+          visibility: hidden;
+        }
+
+        .banner .banner-img-2{
+          height: 612px;
+        }
+      
+      
+      }
+
+
+    .overlay{
+      position: absolute;
+      top: 0;
+      left: 0;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+
+    }
+
+    .overlay .shape{
+      width:initial;
+      opacity:0.13;
+      position: absolute;
+      height: 55px;
+    }
+
+    .overlay .big-symbol1{
+      top: 10%;
+      left:40%;
+      opacity: 1;
+      height: 30px;
+
+    }
+
+    .overlay .big-symbol2{
+      top: 39%;
+      left:91%;
+      opacity: 1;
+      height: 30px;
+
+    }
+
+    .overlay .small-symbol1{
+      top: 78%;
+      left:35%;
+      opacity: 1;
+      height: 30px;
+
+    }
+
+    .overlay .small-symbol2{
+      top: 82%;
+      left:72%;
+      opacity: 1;
+      height: 30px;
+
+    }
+
+    .overlay .lemon{
+      top: 79%;
+      left:53%;
+      opacity: 1;
+      height: 80px;
+    }
+
+    .overlay .Cucumber{
+      top: 10%;
+      right:10%;
+      opacity: 1;
+      height: 80px;
+    }
+
+    .overlay .flower{
+      top: 35% ;
+      left:33%;
+      opacity: 1;
+      height: 80px;
+    }
+
+    .overlay .onion{
+      bottom: 20%;
+      right:8%;
+      opacity: 1;
+      height: 80px;
+    }
+
+    .overlay .balloon{
+      bottom: 8%;
+      right:15%;
+      opacity: 0.9;
+      height: 25px;
+    }
+
+    .navbar-collapse a:hover{
+      color:#FFCC00;
+      font-weight: bold;
+      
+    }
+
+    .navbar-collapse a:focus{
+      color:#FFCC00;
+    } 
+
+   .Promo .promo-btn:hover{
+     color: #FFCC00;
+   }
+
+   .Promo .promo-btn:focus{
+    background-color: black;
+    color:#FFCC00;
+    
+  }
+
+  .promo-footer .promo-footer-btn:hover{
+    color: #FFCC00;
+   
+  }
+
+  .promo-footer .promo-footer-btn:focus{
+   background-color: black;
+   color:#FFCC00;
+   
+ }
+
+ 
+
+
+
+
+    /* Services */
+
+    main{
+      margin-top: 100px;
+    }
+
+    .service{
+      height:500px;
+      margin-bottom: 250px;
+    }
+
+    .service .service-header{
+      font-family: 'Grand Hotel', cursive;
+      font-size: 3.5rem;
+    }
+
+    .service .service-para{
+      font-family:  'Montserrat' , sans-serif;
+      
+    }
+
+    .service .img-style{
+      height: 254px;
+      width: 245px;
+    }
+
+    .service .service-sub-header{
+      font-family: 'Grand Hotel', cursive;
+      font-size: 2.2rem;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+
+    .service .img1-para{
+      font-family:  'Montserrat' , sans-serif;
+    }
+
+    @media screen and (min-width: 0px) and (max-width:576px){
+      .service .service-style{
+        margin-top: 40px;
+      }
+      
+    }
+
+    @media screen and (min-width: 768px) and (max-width:992px){
+      .break{
+        display: none;
+      }
+      
+      .service .service-style{
+        padding: 0 1.2rem;
+      }
+
+    }
+
+    /* Promo */
+
+    /* Promo Overlay */
+    .promo-statistics{
+      position: relative;
+    }
+
+    .overlay-promo{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 90;
+      overflow: hidden;
+    }
+
+    .overlay-promo .shape-promo{
+      width:initial;
+      opacity:0.13;
+      position: absolute;
+      top:0;
+      left:0;
+      height: 55px;
+      
+    }
+
+    .overlay-promo .wheel-promo{
+      top: 0%;
+      left:15%;
+      opacity: 0.6;
+      height: 50px;
+     
+  
+    }
+  
+    .overlay-promo .wheel2-promo{
+      top: 29%;
+      left:91%;
+      opacity: 0.6;
+      height: 25px;
+  
+    }
+  
+    .overlay-promo .wheel3-promo{
+      top: 80%;
+      left:  3%;
+      opacity: 0.6;
+      height: 30px;
+  
+    }
+  
+    .overlay-promo .lemon-promo{
+      top: 83%;
+      left:69%;
+      opacity: 0.6;
+      height: 80px;
+      width: 80px;
+    }
+
+    
+  
+    .overlay-promo .cucumber-promo{
+      
+      left: 80%;
+      opacity: 0.6;
+      height: 80px;
+    }
+
+    .overlay-promo .cucumber2-promo{
+      
+      left: 25%;
+      top: 78%;
+      opacity: 0.6;
+      height: 80px;
+    }
+  
+    .overlay-promo .flower-promo{
+      top: 20%;
+      left: 3%;
+      opacity: 0.6;
+      height: 80px;
+    }
+  
+    .overlay-promo .onion-promo{
+      top: 75%;
+      left:95%;
+      opacity: 0.6;
+      height: 80px;
+    } 
+
+    .overlay-promo .balloon-promo{
+      top: 90%;
+      left:95%;
+      opacity: 0.6;
+    }
+  
+    
+
+    /* -- Promo End  -- */
+
+    .Promo{
+      overflow: hidden;
+      position: relative;
+    }
+
+    .promo-main{
+      background: url('Promo/banner2.png');
+    }
+
+    .Promo .img-fluid{
+      height: 250px;
+    }
+
+    .Promo .promo-main-img{
+      width:auto;
+      height: 482px;
+      position: relative;
+      top: -50%;
+    }
+
+  /* .promo-main-img2{
+      position: absolute;
+      top: 4%;
+      left: 50%;
+    } */  
+
+
+
+    .promo-header {
+      color: #FFCC00;
+      font-family: 'Grand Hotel', cursive;
+      font-size: 7rem;
+    }
+
+    .promo-para {
+      color: #fff;
+      font-family:  'Montserrat' , sans-serif;
+      margin-top: 1rem;
+      font-size: 1.5rem;
+    }
+
+
+    .Promo .promo-btn{
+      background-color: #FFCC00;
+      font-family:  'Montserrat' , sans-serif;
+      font-weight: bold;
+      margin-top: 1rem;
+      
+    }
+
+    .promo-para2 {
+      color: #fff;
+      font-family:  'Montserrat' , sans-serif;
+      margin-top: 1rem;
+      font-size: 1.1rem;
+      font-weight: 500;
+      margin-bottom: 90px;
+    }
+
+    .promo-stats-header{
+      color: #FFCC00;
+      font-family:  'Montserrat' , sans-serif;
+      font-weight: bold;
+    }
+
+    .promo-stats-para{
+      color: #fff;
+      font-family:  'Montserrat' , sans-serif;
+      font-weight: bold;
+    }
+
+    .circle{
+      
+    width: 100px;
+    height: 150px;
+    margin: 10% auto;
+    border: 2px double white;
+    border-radius: 50%;
+    border-width: 10px;
+    position: relative;
+    }
+
+    .circle-sub{
+
+    overflow: hidden;
+    position: absolute;
+    height: auto;
+    width: inherit;
+    top: 50%;
+    
+    transform: translateY(-50%);
+    
+
+    }
+
+    .promo-footer{
+      position: relative;
+      line-height: 2;
+      
+    }
+
+    .promo-footer-img{
+    position: relative;
+    top:50%;
+    line-height: 2  ;
+
+      
+    }
+
+    .promo-footer .promo-footer-header {
+      color: #FFCC00;
+      font-family: 'Grand Hotel', cursive;
+      font-size: 7rem;
+    }
+
+    .promo-footer .promo-footer-para {
+      color: #fff;
+      font-family:  'Montserrat' , sans-serif;
+      margin-top: 1rem;
+      font-size: 1.5rem;
+    }
+
+    .promo-footer .promo-footer-btn{
+      background-color: #FFCC00;
+      font-family:  'Montserrat' , sans-serif;
+      font-weight: bold;
+      margin-top: 1rem;
+    }
+
+    @media screen and (min-width:0px) and (max-width:576px){
+    
+
+      .promo-main-img{
+        display: none;
+      }
+
+      .Promo{
+        padding-top: 800px;
+        margin-top: 200px;
+      }
+
+      .Promo .promo-statistics{
+        padding-top: 220px;
+      }
+
+      .promo-footer-img{
+      
+        top:15%;
+        
+          
+        }
+
+
+    }
+
+    @media screen and (min-width:576px) and (max-width:768px){
+
+
+      .Promo{
+        padding-top: 360px;
+        margin-top: 200px;
+      }
+
+      .promo-main-img{
+        display: none;
+        visibility: hidden;
+      }
+
+      .Promo .promo-statistics{
+        padding-top: 220px;
+      }
+
+      .promo-footer-img{
+      
+        top:15%;
+        
+          
+        }
+
+    }
+
+    @media screen and (min-width:768px) and (max-width:992px){
+
+      .promo-main-img2{
+        position: absolute;
+        top: 4%;
+        left: 50%;
+      }
+
+      .Promo .promo-statistics{
+        padding-top: 100px;
+      }
+    
+      .promo-footer-img{
+      
+        top:15%;
+        
+        }
+
+      .promo-footer .promo-footer-style{
+        margin-top: -100px;
+      }
+
+    }
+
+    @media screen and (min-width:992px) and (max-width:1200px){
+
+      .Promo .promo-statistics{
+        padding-top: 0px;
+      }
+
+
+      .promo-main-img2{
+        position: absolute;
+        top: 4.5%;
+        left: 50%;
+      }
+
+      
+    }
+
+    @media screen and (min-width:1200px){
+    
+      .promo-main-img2{
+        position: absolute;
+        top: 4.5%;
+        left: 50%;
+      }
+    }
+
+
+  /* Info */
+  .info-img .info-img-main{
+    height: 400px;
+    width: 100%;
+    opacity: 0.3;
+  }
+
+  .info{
+    position: relative;
+  }
+
+  .info .info-content{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+  
+  }
+
+  .info::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url('Info/info-background.png') center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    z-index: 0;
+  }
+
+  .info > * {     /* We have to know that we have any number of info childrens underneath 
+                    my info section or direcr decendent of info section set z-index 10 so that 
+                    our text comes in front */
+    z-index: 10;
+    position: relative;
+  }
+
+  .info .info-para{
+    font-family:  'Montserrat' , sans-serif;
+  
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .info .info-header{
+    font-size: 2.2rem;
+    font-family: 'Grand Hotel', cursive;
+  }
+
+
+  /* Subscribe */
+  .subscribe{
+    position: relative;
+    
+  
+  }
+
+  .subscribe  .subscribe-main{
+  padding-top: 140px ;
+  line-height: 3;
+  }
+
+  
+  .subscribe::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height:500px;
+    background: url('Subscribe/background.png') center center/cover;
+    z-index: 0;
+    opacity: 1;
+    
+    
+  }
+
+  .subscribe > * {     /* We have to know that we have any number of info childrens underneath 
+    my info section or direcr decendent of info section set z-index 10 so that 
+    our text comes in front */
+  z-index: 10;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
+  }
+
+  .subscribe .subscribe-header{
+  
+    font-size: 3.6rem;
+    font-family: 'Grand Hotel', cursive;
+  }
+
+  .subscribe .subscribe-para{
+  
+    font-family:  'Montserrat' , sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+
+  
+  .subscribe .subscribe-input{
+  
+  width: 60%;
+  padding: 0.2rem 1rem ;
+  margin: 2rem 2rem;
+  border: 2px solid white;
+  outline: none;
+  height: 2.4rem;
+  transition: .3s;
+  box-shadow: 1px 1px lightcyan -2px -2px grey ;
+  font-family:  'Montserrat' , sans-serif;
+  
+  
+
+  }
+
+  .subscribe .subscribe-input:focus{
+    
+  
+  outline: grey;
+  background-color: white;
+    
+  }
+
+  .subscribe .subscribe-button{
+    background-color: #FFCC00;
+    font-family:  'Montserrat' , sans-serif;
+    font-weight: 900;
+    position: relative;
+    left: -35px;
+    border-radius: 0rem;
+    height: 2.4rem;
+    
+
+
+  }
+
+  .subscribe .subscribe-button:hover{
+    color: black;
+    background-color: #fff;
+    
+  }
+
+  .subscribe .subscribe-button:focus{
+  outline: none;
+  border: none;
+    
+  }
+
+  .overlay-sub{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+    overflow: hidden;
+  }
+
+  .overlay-sub .shape-sub{
+    width:initial;
+    opacity:0.13;
+    position: absolute;
+    top:0;
+    left:0;
+    height: 55px;
+  }
+
+  .overlay-sub .wheel-sub{
+    top: 10%;
+    left:15%;
+    opacity: 0.6;
+    height: 30px;
+
+  }
+
+  .overlay-sub .wheel2-sub{
+    top: 39%;
+    left:91%;
+    opacity: 0.6;
+    height: 25px;
+
+  }
+
+  .overlay-sub .wheel3-sub{
+    top: 80%;
+    left: 5%;
+    opacity: 0.6;
+    height: 30px;
+
+  }
+
+  .overlay-sub .lemon-sub{
+    top: 79%;
+    left:53%;
+    opacity: 0.6;
+    height: 80px;
+    width: 80px;
+  }
+
+  .overlay-sub .cucumber-sub{
+    top: 5%;
+    left: 70%;
+    opacity: 0.6;
+    height: 80px;
+  }
+
+  .overlay-sub .flower-sub{
+    top: 35%;
+    left: 3%;
+    opacity: 0.6;
+    height: 80px;
+  }
+
+  .overlay-sub .onion-sub{
+    top: 65%;
+    left:90%;
+    opacity: 0.6;
+    height: 80px;
+  } 
+
+  .overlay-sub .balloon-sub{
+    top: 90%;
+    left:80%;
+    opacity: 0.6;
+    height: 25px;
+  }
+
+
+  /* Footer */
+  .footer {
+    height: auto;
+    width: 100%;
+    position: relative;
+    padding: 10rem 0;  
+  }
+
+  .footer-content{
+    margin: 0 2rem;
+  }
+
+  .footer-title{
+    line-height: 2;
+  }
+
+  .footer .footer-head{
+    font-family:  'Montserrat' , sans-serif;
+    font-weight: bold;
+    line-height: 2;
+  }
+
+  .footer .footer-para{
+    font-family:  'Montserrat' , sans-serif;
+    font-weight: 500;
+    line-height: 1.3;
+  }
+
+  .footer-icon{
+   
+    width: 15%;
+    height: 10%;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.footer-links a{
+  display: block;
+}
+
+.footer .footer-common-links a{
+  font-family:  'Montserrat' , sans-serif ;
+  color: #ffffff;
+  line-height: 2;
+}
+
+@media screen and (min-width: 0px) and (max-width: 991px){
+  .footer .footer-about, .footer-services, .footer-other{
+    margin-top: 3rem;
+    padding-top: 2rem;
+  }
+
+  .footer-icon{
+    width:10%;
+  }
+}
+
+.footer .footer-common-links a:hover{
+  color: #FFCC00;
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
